@@ -170,6 +170,7 @@ jupyter notebook id-and-verif-model.ipynb
 ---
 
 **Institution**: Indian Institute of Technology (BHU) Varanasi
+
 **Year**: 2025
 
 > For detailed methodology, results analysis, and technical implementation, refer to the comprehensive project report and interactive notebook.
