@@ -1,0 +1,63 @@
+{
+    "best_params": {
+        "feature_dimensions": 384,
+        "num_heads": 3,
+        "head_dimensions": 128,
+        "dropout_rate": 0.4598331092312801,
+        "activation_function": "gelu",
+        "normalization_type": "batch",
+        "arcface_scaling_factor": 46,
+        "arcface_angular_margin_penalty": 0.31209526705239254,
+        "lambda_center": 0.05205133656452049,
+        "optimizer": "AdamW",
+        "learning_rate": 0.0002667980981597211,
+        "weight_decay": 2.4059130672273426e-06,
+        "optimizer_center": "SGD",
+        "learning_rate_center": 1.7670945945941906e-05,
+        "weight_decay_center": 5.357587683279803e-05,
+        "momentum_center": 0.8241842866074742,
+        "scheduler": "steplr",
+        "scheduler_step_size": 18,
+        "scheduler_gamma": 0.29434921406849424,
+        "scheduler_center": "steplr",
+        "scheduler_center_step_size": 6,
+        "scheduler_center_gamma": 0.8541146077010079
+    },
+    "decision_thresholds": {
+        "osr_decision_threshold": 0.9766840934753418,
+        "verification_decision_threshold": 0.31876829266548157
+    },
+    "identification": {
+        "identification_accuracy_closed_set": 0.9517133956386293,
+        "identification_accuracy_open_closed_set": 0.9712230215827338,
+        "identification_precision_macro_avg": 0.9809832582459741,
+        "identification_recall_macro_avg": 0.9404931676250218,
+        "identification_f1_macro_avg": 0.9575848540158252,
+        "identification_precision_micro_avg": 0.9712230215827338,
+        "identification_recall_micro_avg": 0.9712230215827338,
+        "identification_f1_micro_avg": 0.9712230215827338
+    },
+    "open_set": {
+        "open_set_accuracy": 0.9712230215827338,
+        "open_set_precision": 0.9791666666666666,
+        "open_set_recall": 0.9517133956386293,
+        "open_set_f1_score": 0.9652448657187993,
+        "open_set_auroc": 0.9903293330102169,
+        "open_set_aupr": 0.9917354266236216,
+        "open_set_false_accept_rate": 0.014656144306651634,
+        "open_set_correct_classification_rate": 0.9712230215827338,
+        "open_set_classification_rate": 0.956988636824475
+    },
+    "verification": {
+        "verification_accuracy": 0.9149,
+        "verification_precision": 0.9011796557725779,
+        "verification_recall": 0.932,
+        "verification_f1_score": 0.9163307442729329,
+        "verification_auroc": 0.97498611,
+        "verification_aupr": 0.9769820462381391,
+        "verification_average_precision": 0.976983166987543,
+        "verification_equal_error_rate": 0.08630000000000002,
+        "verification_false_acceptance_rate": 0.1022,
+        "verification_false_rejection_rate": 0.068
+    }
+}
